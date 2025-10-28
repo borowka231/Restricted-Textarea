@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#textInput {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 10px;
+  resize: none;
+}
+.counter {
+  font-size: 14px;
+  margin-left: 440px;
+  transform: translateY(-40px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gray;
+}
