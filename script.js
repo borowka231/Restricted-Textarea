@@ -10,9 +10,8 @@ function updateBorder() {
     if (length >= maxLength) {
       textarea.style.border = "2px solid #fa1010ff";
       textarea.style.color = "#fa1010ff";
-    else if (length >= 200) {
+    } else if (length >= 200) {
       textarea.style.border = "2px solid #fae510ff";
-    } 
     } else {
       textarea.style.border = "2px solid black";
       textarea.style.color = "black";
@@ -23,4 +22,3 @@ function updateBorder() {
 }
 
 textarea.addEventListener("input", updateBorder);
-
