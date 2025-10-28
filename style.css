@@ -11,11 +11,13 @@
   outline: none;
   border-radius: 10px;
   resize: none;
+  scrollbar-color: gray transparent;
 }
 .counter {
   font-size: 14px;
-  margin-left: 440px;
+  margin-left: 435px;
   transform: translateY(-40px);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: gray;
+  user-select: none;
 }
